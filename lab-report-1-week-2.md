@@ -60,7 +60,7 @@ ssh-keygen
 ```
 3. You will then see `Enter passphrase (empty for no passphrase)`, press enter directly
 4. Press enter again to confirm the empty paraphrase
-5. Now we need to copy the public key to the `.ssh` directory of your user account on the server by going through the following steps:
+5. Now we need to copy the public key to the `.ssh` directory of your user account on the server by going through the following steps
 ```
 $ ssh cs15lsp22zz@ieng6.ucsd.edu
 <Enter Password>
