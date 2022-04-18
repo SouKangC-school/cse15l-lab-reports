@@ -63,13 +63,11 @@ ssh-keygen
 5. Now we need to copy the public key to the `.ssh` directory of your user account on the server by going through the following steps
 ```
 $ ssh cs15lsp22zz@ieng6.ucsd.edu
-<Enter Password>
-# now on server
+<Enter Password> // now on server
 $ mkdir .ssh
-$ <logout>
-# back on client
+$ <logout> // back on client
 $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
-# You use your username and the path you saw in the command above
+  // You use your username and the path you saw in the command above
 ```
 6. Once you have done all previous steps, you should be able to `ssh` or `scp` from this client to the server without entering your password
 
