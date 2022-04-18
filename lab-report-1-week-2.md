@@ -82,5 +82,5 @@ $ ssh cs15lsp22zz@ieng6.ucsd.edu "ls"
 ```
 $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```
-3. You can use up-arrow on the keyborad to recall the last command that was run
+3. You can use up-arrow on the keyborad to recall the last command that was run.
 
