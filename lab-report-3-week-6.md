@@ -27,3 +27,13 @@ Host ieng6
 
 3. Show running `git` commands to commit and push a change to Github while logged into my ieng6 account
 ![Image](image-3\2.3.png)
+
+4. Show a link for the resulting commit:
+[commit link](https://github.com/SouKangC-school/cse15l-lab-reports/commit/3bc56a836425917c64da9dfb0c796ed20c6fbec3)
+
+# Copy whole directories with `scp -r`
+
+1. Show copying my whole markdown-parse directory to my ieng6 account
+![Image](image-3\3.1.png)
+
+2. 
