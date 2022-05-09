@@ -36,4 +36,8 @@ Host ieng6
 1. Show copying my whole markdown-parse directory to my ieng6 account
 ![Image](image-3\3.1.png)
 
-2. 
+2. Show logging into my ieng6 account after doing this and compiling and running the tests for my repository
+![Image](image-3\3.2.png)
+
+3. Show combining `scp`, `;`, and `ssh` to copy the whole directory and run the tests in one line
+![Image](image-3\3.3.png)
