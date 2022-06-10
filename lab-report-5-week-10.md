@@ -17,10 +17,12 @@ Before looking for the difference, I run `bash script.sh >> results.txt` for bot
 The provided implementation demonstrates the correct output
 2. The demonstration of outputs
 * Actual output:
+
 ![image](image-5\5.1.png)
 * Expected output: [url]
 3. Description of the bug and a possible fix
 * Code segment
+
 ![image](image-5\5.3.png)
 * Solution: In this case, it is my implementation that does not work out correctly. This test case is quite special, as it involves with `:` which I have no clue on its usage back when I was typing the above code segment. Honestly, I am still not sure why url would be considered as a link as though it is divided from `[]` with `:my_`. The only thing I am sure of is that some special modifications should be taken in the above code segment so that the `:` would be treated correclty as we parse the link down. 
 
@@ -29,9 +31,11 @@ The provided implementation demonstrates the correct output
 My implementation demonstrates the correct output
 2. The demonstration of outputs
 * Actual output:
+
 ![image](image-5\5.2.png)
 * Expected output: []
 3. Description of the bug and a possible fix
 * Code segment
+
 ![image](image-5\5.4.png)
 * Solution: For this test case, it is the provided implementation that produces the wrong output. As you can see, the test 201.md includes `:` as well. But what's different from the previous test 194.md is that the existance of a space right after that `:` sigh. Even though I am not too sure how `:` is used in markdown language, I could deduce that the insertion of space after `:` would cut down the connection between the brackets and parenthesis, preventing a link to be created. As of the actual code change, I believe some modifications should be made in the highlighted region of the code segment above as that section of code is mainly in charge of the task of finding the next open parenthesis. 
